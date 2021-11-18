@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5d6b4;
+  min-height: 100vh;
+}
+.pai {
+  position: relative;
+  width: 200px;
+  height: 130px;
+}
+.filho1 {
+  position: absolute;
+  background: #d86f45;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  bottom: 0;
+}
+.filho2 {
+  position: absolute;
+  background: #d86f45;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  right: 20px;
+}
+.filho3 {
+  position: absolute;
+  background: #d86f45;
+  width: 150px;
+  height: 50px;
+  border-radius: 0 30px 30px 0;
+  right: 0;
+  bottom: 0;
+}

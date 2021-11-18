@@ -1,4 +1,4 @@
 # CSS-Battle
-SitePoin Logo.
+Site Point Logo.
 
 Crédito: https://cssbattle.dev/play/21
