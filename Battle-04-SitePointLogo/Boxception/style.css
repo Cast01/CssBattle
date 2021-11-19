@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background: #f3ac3c;
+}
+.pai {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: #1a4341;
+}
+.filho {
+  position: absolute;
+  background: #998235;
+  width: 100px;
+  height: 100px;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.filhoFilho {
+  background: #f3ac3c;
+  width: 50px;
+  height: 50px;
+}
